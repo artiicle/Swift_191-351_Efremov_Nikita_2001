@@ -1,7 +1,3 @@
-//
-//  MainViewController.swift
-
-
 import UIKit
 
 class MainViewController: UIViewController {
@@ -16,7 +12,7 @@ class MainViewController: UIViewController {
             slider.maximumValue = 100
             slider.minimumValue = 0
             slider.value = 10
-        }
+                }
     }
     
     @IBOutlet weak var kgLabel: UILabel!

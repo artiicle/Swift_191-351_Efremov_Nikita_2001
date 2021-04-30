@@ -1,6 +1,3 @@
-//
-//  AppDelegate.swift
-
 import UIKit
 
 @main
