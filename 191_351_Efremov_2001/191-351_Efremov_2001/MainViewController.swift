@@ -43,7 +43,7 @@ class MainViewController: UIViewController {
             return
         }
     }
-    
+   
     @IBAction func convertMassDrag(_ sender: UISlider) {
         let kg = Int(round(sender.value))
         kgLabel.text = "\(kg) кг."

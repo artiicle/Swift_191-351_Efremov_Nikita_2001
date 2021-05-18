@@ -117,7 +117,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1633" y="-483"/>
+            <point key="canvasLocation" x="-2984" y="-931"/>
         </scene>
         <!--Lab2-->
         <scene sceneID="xtG-tY-dvS">
@@ -127,7 +127,17 @@
                 </hostingController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="L1N-AF-uwi" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1633" y="257"/>
+            <point key="canvasLocation" x="-2022" y="-860"/>
+        </scene>
+        <!--Lab4+5-->
+        <scene sceneID="rDX-C7-hkJ">
+            <objects>
+                <hostingController id="JXE-px-P0Y" customClass="FouthHostingController" customModule="My_app" customModuleProvider="target" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Lab4+5" image="45.circle" catalog="system" id="dbC-NQ-gUg"/>
+                </hostingController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="JcQ-V0-VRX" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-374" y="-278"/>
         </scene>
         <!--Lab3-->
         <scene sceneID="gl1-9g-gsw">
@@ -137,7 +147,7 @@
                 </hostingController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="9Wb-GZ-ju9" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1901" y="1025"/>
+            <point key="canvasLocation" x="-1104" y="-768"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="TpH-zE-Grj">
@@ -153,6 +163,7 @@
                         <segue destination="BYZ-38-t0r" kind="relationship" relationship="viewControllers" id="drr-0i-3dd"/>
                         <segue destination="srV-YM-yEk" kind="relationship" relationship="viewControllers" id="yXJ-71-zpQ"/>
                         <segue destination="HXj-AX-Uhf" kind="relationship" relationship="viewControllers" id="YIu-da-pgv"/>
+                        <segue destination="JXE-px-P0Y" kind="relationship" relationship="viewControllers" id="2XL-p7-Z9Y"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ECa-Ms-Pbp" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -164,6 +175,7 @@
         <image name="1.circle" catalog="system" width="128" height="121"/>
         <image name="2.circle" catalog="system" width="128" height="121"/>
         <image name="3.circle" catalog="system" width="128" height="121"/>
+        <image name="45.circle" catalog="system" width="128" height="121"/>
         <systemColor name="labelColor">
             <color white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
